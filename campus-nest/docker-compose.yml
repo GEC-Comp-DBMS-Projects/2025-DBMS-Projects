@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  admin:
+    build:
+      context: ./web
+      dockerfile: Dockerfile
+    container_name: admin-web
+    restart: unless-stopped
+    ports:
+      - "3000:3000" 
+    environment:
+      - NEXT_PUBLIC_API_URL=https://campusnest-backend-lkue.onrender.com

@@ -1,0 +1,30 @@
+services:
+  - type: web
+    name: campusnest-backend
+    env: go
+    region: oregon
+    plan: free
+    buildCommand: cd backend && go build -v -o ../server .
+    startCommand: ./server
+    healthCheckPath: /health
+    envVars:
+      - key: MONGO_URI
+        scope: runtime
+      - key: JWT_SECRET
+        scope: runtime
+      - key: GIN_MODE
+        value: release
+  
+  - type: web
+    name: campusnest-ml-api
+    env: python
+    region: virginia
+    plan: free
+    buildCommand: cd ML && pip install -r requirements.txt
+    startCommand: cd ML && gunicorn main:app
+    healthCheckPath: /
+    envVars:
+      - key: MONGO_URI
+        scope: runtime
+      - key: GROQ_API_KEY
+        sync: false
