@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "PartSyncApp",
+    "slug": "PartSyncApp",
+    "version": "2.16.9",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo.png",
+    "scheme": "partsyncapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#1E1E2E"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.dfdes.PartSyncApp"
+    },
+      "plugins": [
+
+         [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#FFFFF",
+          "image": "./assets/images/splash-icon.png"
+        }
+      ],
+
+  "expo-router",
+    "expo-secure-store"
+],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "4ca9c8a6-241c-4694-b9c0-9801e28e38ce"
+      }
+    }
+  }
+}

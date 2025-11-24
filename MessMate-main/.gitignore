@@ -1,0 +1,30 @@
+# Node.js dependencies
+node_modules/
+Frontend/node_modules/
+Backend/node_modules/
+
+# Environment files
+.env
+Frontend/.env
+Backend/.env
+
+# Expo / build directories
+.expo/
+dist/
+build/
+Frontend/build/
+Backend/build/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Optional IDE/editor files
+.vscode/
+.idea/

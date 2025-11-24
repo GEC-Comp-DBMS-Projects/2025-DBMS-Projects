@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "291106879361",
+    "project_id": "kalakart-9b45e",
+    "storage_bucket": "kalakart-9b45e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291106879361:android:e94cb77f180789c6a71a80",
+        "android_client_info": {
+          "package_name": "com.example.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCna0cvxzRAzzoj7OOMJBZk0PrFklt0Q8o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291106879361:android:20a9951c84640011a71a80",
+        "android_client_info": {
+          "package_name": "com.example.kart_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCna0cvxzRAzzoj7OOMJBZk0PrFklt0Q8o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
