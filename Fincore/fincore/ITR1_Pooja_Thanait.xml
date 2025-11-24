@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ITR xmlns="http://incometaxindiaefiling.gov.in/main"
+     xmlns:ITR1FORM="http://incometaxindiaefiling.gov.in/ITR/2018/ITR-1"
+     version="1.0">
+  <ITR1FORM:ITR1>
+    <ITR1FORM:FormName>ITR-1</ITR1FORM:FormName>
+    <ITR1FORM:AssessmentYear>2024-25</ITR1FORM:AssessmentYear>
+    <ITR1FORM:FilingType>Original</ITR1FORM:FilingType>
+    <ITR1FORM:FilingStatus>Individual</ITR1FORM:FilingStatus>
+
+    <ITR1FORM:PersonalInfo>
+      <ITR1FORM:Name>
+        <ITR1FORM:FirstName>Pooja</ITR1FORM:FirstName>
+        <ITR1FORM:LastName>Thanait</ITR1FORM:LastName>
+      </ITR1FORM:Name>
+      <ITR1FORM:PAN>ABCDE1234F</ITR1FORM:PAN>
+      <ITR1FORM:AadharNumber>123456789012</ITR1FORM:AadharNumber>
+      <ITR1FORM:Gender>F</ITR1FORM:Gender>
+      <ITR1FORM:DOB>1998-05-15</ITR1FORM:DOB>
+      <ITR1FORM:Email>pooja@example.com</ITR1FORM:Email>
+      <ITR1FORM:Mobile>9876543210</ITR1FORM:Mobile>
+      <ITR1FORM:Address>
+        <ITR1FORM:FlatDoor>No. 12</ITR1FORM:FlatDoor>
+        <ITR1FORM:Premises>Green View Apartments</ITR1FORM:Premises>
+        <ITR1FORM:Road>MG Road</ITR1FORM:Road>
+        <ITR1FORM:Locality>Andheri East</ITR1FORM:Locality>
+        <ITR1FORM:City>Mumbai</ITR1FORM:City>
+        <ITR1FORM:State>MH</ITR1FORM:State>
+        <ITR1FORM:PIN>400093</ITR1FORM:PIN>
+      </ITR1FORM:Address>
+    </ITR1FORM:PersonalInfo>
+
+    <ITR1FORM:IncomeDetails>
+      <ITR1FORM:SalaryIncome>850000</ITR1FORM:SalaryIncome>
+      <ITR1FORM:IncomeFromOtherSources>20000</ITR1FORM:IncomeFromOtherSources>
+      <ITR1FORM:GrossTotalIncome>870000</ITR1FORM:GrossTotalIncome>
+    </ITR1FORM:IncomeDetails>
+
+    <ITR1FORM:Deductions>
+      <ITR1FORM:Section80C>150000</ITR1FORM:Section80C>
+      <ITR1FORM:Section80D>25000</ITR1FORM:Section80D>
+      <ITR1FORM:TotalDeductions>175000</ITR1FORM:TotalDeductions>
+    </ITR1FORM:Deductions>
+
+    <ITR1FORM:TaxComputation>
+      <ITR1FORM:NetTaxableIncome>695000</ITR1FORM:NetTaxableIncome>
+      <ITR1FORM:TaxPayable>45000</ITR1FORM:TaxPayable>
+      <ITR1FORM:TDSonSalary>5000</ITR1FORM:TDSonSalary>
+      <ITR1FORM:NetTaxDue>40000</ITR1FORM:NetTaxDue>
+    </ITR1FORM:TaxComputation>
+
+    <ITR1FORM:BankDetails>
+      <ITR1FORM:PrimaryBank>
+        <ITR1FORM:IFSC>SBIN0000456</ITR1FORM:IFSC>
+        <ITR1FORM:AccountNumber>12345678901</ITR1FORM:AccountNumber>
+        <ITR1FORM:AccountType>Savings</ITR1FORM:AccountType>
+      </ITR1FORM:PrimaryBank>
+    </ITR1FORM:BankDetails>
+
+    <ITR1FORM:Verification>
+      <ITR1FORM:DeclarationText>
+        I, Pooja Thanait, do hereby declare that the information given above is true and correct.
+      </ITR1FORM:DeclarationText>
+      <ITR1FORM:Place>Mumbai</ITR1FORM:Place>
+      <ITR1FORM:Date>2025-07-25</ITR1FORM:Date>
+    </ITR1FORM:Verification>
+
+  </ITR1FORM:ITR1>
+</ITR>
