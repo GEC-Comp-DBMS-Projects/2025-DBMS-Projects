@@ -1,0 +1,56 @@
+name: skillconnect
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^4.0.0
+  firebase_auth: ^6.0.1
+  image_picker: ^1.2.0
+  firebase_storage: ^13.0.0
+  http: ^1.5.0
+  google_fonts: ^6.2.1
+
+  cupertino_icons: ^1.0.8
+  cloud_firestore: ^6.0.0
+  intl: ^0.20.2
+  timeago: ^3.7.1
+  shared_preferences: ^2.5.3
+  dio: ^5.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/skillconnect_logo.jpg
+    - assets/images/1.png
+    - assets/images/2.png
+    - assets/images/3.png
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package

@@ -1,0 +1,52 @@
+name: note_organiser
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    
+    sdk: flutter
+    
+  firebase_core: ^4.0.0
+  firebase_auth: ^6.0.0
+  cloud_firestore: ^6.0.0
+  flutter_speed_dial: ^7.0.0
+  page_flip: ^0.2.5+1
+  image_picker: ^1.2.0
+  http: ^1.5.0
+  file_picker: ^10.3.3
+  uploadthing: ^1.0.4
+  http_parser: ^4.1.2
+  google_fonts: ^6.3.2
+  fl_chart: ^1.1.0
+  provider: ^6.1.5+1
+  shimmer: ^3.0.0
+  flutter_staggered_animations: ^1.1.1
+  flutter_cached_pdfview: ^0.4.3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+
+fonts:
+  - family: Poppins
+    fonts:
+      - asset: fonts/Poppins-Regular.ttf
+      - asset: fonts/Poppins-SemiBold.ttf
+        weight: 600
+  - family: Inter
+    fonts:
+      - asset: fonts/Inter-Regular.ttf
+      - asset: fonts/Inter-Medium.ttf
+        weight: 500

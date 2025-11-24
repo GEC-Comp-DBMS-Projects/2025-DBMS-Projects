@@ -1,0 +1,8 @@
+{
+  // Hide the Linux generated flutter folder from file explorer and disable C++ error squiggles
+  "files.exclude": {
+    "**/linux/flutter/**": true
+  },
+  // Disable C/C++ extension error squiggles for this workspace (prevents false positives in generated files)
+  "C_Cpp.errorSquiggles": "Disabled"
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "57668888967",
+    "project_id": "noteorganizer-f386b",
+    "storage_bucket": "noteorganizer-f386b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:57668888967:android:09bd851d832ead4a008b22",
+        "android_client_info": {
+          "package_name": "com.example.note_organiser"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_rqyr7ZxTi6tFJzDzW8voqBFrPHJKlxo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="48" fill="#3b82f6"/>
+  
+  <!-- Head -->
+  <circle cx="50" cy="36" r="16" fill="#e2e8f0"/>
+  
+  <!-- Body -->
+  <path d="M50 52 C32 52 18 66 18 85 C18 95 82 95 82 85 C82 66 68 52 50 52" fill="#e2e8f0"/>
+</svg>

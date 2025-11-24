@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "571785779021",
+    "project_id": "scoremore-6a35d",
+    "storage_bucket": "scoremore-6a35d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:571785779021:android:7fcb4cc28785cca2648904",
+        "android_client_info": {
+          "package_name": "com.example.scoremore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgDmhDg7EHjzNTPUvRZLxiBJD0V_cjpno"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
