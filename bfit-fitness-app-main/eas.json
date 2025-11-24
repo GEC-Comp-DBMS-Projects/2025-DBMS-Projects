@@ -1,0 +1,26 @@
+{
+  "cli": {
+    "version": ">= 16.25.1",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "production": {
+      "autoIncrement": true
+      // Leave this for .aab file builds for the Play Store
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
+
