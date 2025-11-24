@@ -1,0 +1,48 @@
+name: scoremore
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  firebase_core: ^3.15.2
+  firebase_auth: ^5.7.0
+  cloud_firestore: 5.6.12
+  firebase_storage: ^12.1.4
+  image_picker: ^1.1.0
+  shared_preferences: ^2.2.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/icon/app_icon.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/background.png
+    - assets/liquidglass1.png
+    - assets/crick.png
+    - assets/scmor1.png
+    - assets/scmor2.png
+    - assets/discuss.png
+    - assets/batball.png
+    - assets/match.png
+    - assets/stats.png
+    - assets/HEADS.png
+    - assets/TAILS.png
+    
